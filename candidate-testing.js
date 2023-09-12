@@ -53,7 +53,7 @@ function runProgram() {
   // TODO 1.1c: Greet candidate using their name //
   console.log(candidateName);
   askQuestion();
-  gradeQuiz(candidateAnswers);
+  gradeQuiz(this.candidateAnswers);
 }
 
 // ----------- Don't write any code or change any code below this line ---------- //
