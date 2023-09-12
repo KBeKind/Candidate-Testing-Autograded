@@ -45,7 +45,7 @@ function gradeQuiz(candidateAnswers) {
   let grade = (score / questions.length) * 100; //TODO 3.2 use this variable to calculate the candidates score.
 
   console.log("your grade: " + grade);
-  return grade;
+  return 0;
 }
 
 function runProgram() {
